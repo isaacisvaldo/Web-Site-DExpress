@@ -1,6 +1,6 @@
 import { Actions } from './actions'
-import { SocialProof } from './socialProof'
-import { TrustIndicator } from './trustIndicator'
+// import { SocialProof } from './socialProof'
+// import { TrustIndicator } from './trustIndicator'
 
 export function Info() {
   return (
@@ -16,8 +16,8 @@ export function Info() {
         </p>
       </div>
       <Actions />
-      <SocialProof />
-      <TrustIndicator />
+      {/* <SocialProof /> */}
+      {/* <TrustIndicator /> */}
     </div>
   )
 }
