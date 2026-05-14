@@ -11,7 +11,7 @@ export function useNavItem() {
       { label: 'Contratar', href: links.buscar },
       { label: 'Trabalhe Connosco', href: links.trabalheConosco },
       { label: 'Planos', href: links.planos },
-      { label: 'Depoimentos', href: links.depoimentos },
+      { label: 'Sobre Nós', href: links.sobre },
       { label: 'Cadastra a Sua Empresa', href: links.paraEmpresas },
     ],
     [],

@@ -1,4 +1,4 @@
-import { CardSupportContact } from '../components/cardSupportContact'
+import { CardSupportContact } from '../components'
 
 import { contacts } from '@/config/contacts'
 import {

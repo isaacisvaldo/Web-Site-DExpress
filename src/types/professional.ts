@@ -37,6 +37,7 @@ export type Profissional = {
   maritalStatusId: string
   highestDegreeId: string
   location: Location
+  codeIdentifier: string
   desiredPosition: DesiredPosition
   gender: Gender
   jobApplication: JobApplication

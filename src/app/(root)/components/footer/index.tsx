@@ -115,6 +115,12 @@ export function Footer() {
               >
                 Política de Privacidade
               </Link>
+                <Link
+                className="block text-sm text-muted-foreground hover:text-primary transition-colors duration-200 text-left"
+                href={links.verificar}
+              >
+                Verificar Profissional
+              </Link>
             </div>
           </div>
 

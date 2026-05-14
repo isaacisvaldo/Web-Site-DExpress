@@ -84,6 +84,15 @@ export function BecomeClientSection() {
                 </p>
               </CardContent>
             </Card>
+
+            {/* Imagem ilustrativa */}
+            <div className="rounded-2xl overflow-hidden border border-primary/10 shadow-md">
+              <img
+                src="/info.png"
+                alt="Empresa parceira D Express"
+                className="w-full h-56 object-cover"
+              />
+            </div>
           </div>
 
           {/* Formulário */}

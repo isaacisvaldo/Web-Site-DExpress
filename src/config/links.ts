@@ -4,7 +4,7 @@ export const links = {
   profissional: 'profissional',
   contratar: 'contratar',
   buscar: 'buscar',
-  depoimentos: 'depoimentos',
+  sobre: 'sobre-nos',
   comoFunciona: 'como-funciona',
   trabalheConosco: 'trabalhe-conosco',
   paraEmpresas: 'para-empresas',
@@ -13,6 +13,7 @@ export const links = {
   solicitacoes: 'solicitacoes',
   faq: 'pergunta-frequente',
   politicaPrivacidade: 'politica-de-privacidade',
+  verificar: 'verificar-profissional',
   termosUso: 'termos-de-uso',
   recuperarSenha: 'recuperar-senha',
 } as const

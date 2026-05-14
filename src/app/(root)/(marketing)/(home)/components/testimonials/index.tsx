@@ -30,7 +30,7 @@ export function TestimonialsSection() {
   ]
 
   return (
-    <section className="py-20 bg-muted/30" id={links.depoimentos}>
+    <section className="py-20 bg-muted/30" >
       <div className="max-w-[120rem] w-full mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">Depoimentos</h2>
@@ -42,24 +42,7 @@ export function TestimonialsSection() {
         <MarqueeDemoVertical />
 
         {/* Trust Indicators */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-16 pt-16 border-t">
-          <div className="text-center">
-            <div className="text-3xl font-bold text-primary mb-2">2.500+</div>
-            <div className="text-sm text-muted-foreground">Profissionais</div>
-          </div>
-          <div className="text-center">
-            <div className="text-3xl font-bold text-primary mb-2">5.000+</div>
-            <div className="text-sm text-muted-foreground">Conexões</div>
-          </div>
-          <div className="text-center">
-            <div className="text-3xl font-bold text-primary mb-2">98%</div>
-            <div className="text-sm text-muted-foreground">Satisfação</div>
-          </div>
-          <div className="text-center">
-            <div className="text-3xl font-bold text-primary mb-2">24h</div>
-            <div className="text-sm text-muted-foreground">Suporte</div>
-          </div>
-        </div>
+ 
       </div>
     </section>
   )

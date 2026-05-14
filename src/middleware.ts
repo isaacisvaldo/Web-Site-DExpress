@@ -12,6 +12,7 @@ const PUBLIC_REGEX = [
   /^\/profissional(\/.*)?$/,
   /^\/pergunta-frequente$/,
   /^\/politica-de-privacidade$/,
+  /^\/verificar-profissional$/,
   /^\/termos-de-uso$/,
   /^\/recuperar-senha$/,
   /^\/recuperar-senha\/redefinir$/,
