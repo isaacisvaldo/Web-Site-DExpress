@@ -103,7 +103,7 @@ export default defineConfig([
       ],
 
       // Padding
-      'padding-line-between-statements': 'off',   // ← Very noisy, disable for now
+      'padding-line-between-statements': 'off',
     },
   },
 ])

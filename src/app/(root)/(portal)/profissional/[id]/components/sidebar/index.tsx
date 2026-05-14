@@ -1,7 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { Heart, Users, HeartPulse } from 'lucide-react'
-import { Profissional, type ProfessionalDetails } from '@/types/professional'
+import { Profissional } from '@/types/professional'
 
 type ProfessionalSidebarProps = {
   professional: Profissional

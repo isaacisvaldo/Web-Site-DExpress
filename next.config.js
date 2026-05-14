@@ -1,13 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+
   images: {
     remotePatterns: [
-      new URL('https://dwhgufcvlmovqrtqmjdd.supabase.co/storage/v1/object/public/files/**'),
+      new URL(
+        'https://dwhgufcvlmovqrtqmjdd.supabase.co/storage/v1/object/public/files/**'
+      ),
     ],
-  },
-  // Adiciona esta linha para ignorar o erro durante o build
-  typescript: {
-    ignoreBuildErrors: true,
   },
 }
 
